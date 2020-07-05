@@ -300,7 +300,7 @@ font-weight: bold;
 transition: background-color 0.4s;
 animation: blink 1s linear infinite;
 position: relative;
-top: -5px;
+top: 5px;
 }
 
 .btn2:hover{

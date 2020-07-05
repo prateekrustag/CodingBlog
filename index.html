@@ -12,6 +12,19 @@
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ 
+<style>
+.carousel-inner img 
+{
+    width: 100%;
+    height: 400px;
+}
+</style>
+	
     <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 1108; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
@@ -115,19 +128,36 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis odio, aliqu
 <div class="container boxin4">
 
 	
-<section class="row">
-  <div class="nine columns">
-    <div class="coverflow top10 bot10">
-      <a class="prev-arrow"></a>
-      <a href=""><img src="bann.png" class="coverflow__image"></a>
-      <a href=""><img src="bann.png" class="coverflow__image"></a>
-      <a href=""><img src="bann.png" class="coverflow__image"></a>
-      <a href=""><img src="bann.png" class="coverflow__image"></a>
-      <a href=""><img src="bann.png" class="coverflow__image"></a>
-      <a class="next-arrow"></a>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="bann.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="bann.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="bann.jpg">
     </div>
   </div>
-</section>
+  
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+   <div style="background-color: black; padding: 10px; padding-top: 15px; border-radius: 500px;"> <span class="carousel-control-prev-icon"></span></div>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <div style="background-color: black; padding: 10px; padding-top: 15px; border-radius: 500px;"><span class="carousel-control-next-icon jj"></span></div>
+  </a>
+</div>
 	
 	
 </div>

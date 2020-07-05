@@ -286,7 +286,7 @@ letter-spacing: 2px;
 100%{opacity: 0;}
 }
 
-.btn{
+.btn2{
 float: left;
 border-radius: 50px;
 background-color: transparent;
@@ -303,7 +303,7 @@ position: relative;
 top: -5px;
 }
 
-.btn:hover{
+.btn2:hover{
 background-color: white;
 color: black;
 animation: none;    

@@ -198,7 +198,10 @@ font-size: 15px;
 }
 
 .boxin6{
-padding: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
 background-color: white;
 opacity: 0.9;
 color: black;

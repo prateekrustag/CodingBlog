@@ -274,7 +274,7 @@ letter-spacing: 2px;
 }
 
 .btn{
-float: right;
+float: left;
 border-radius: 50px;
 background-color: transparent;
 border: 2px solid white;

@@ -269,7 +269,7 @@ letter-spacing: 3px;
 }
     
 footer{
-background: url("footer.jpg");
+background-color black;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -384,7 +384,9 @@ top: -2rem;
 }
 
 .fa {
-  padding: 20px;
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 27px;
   font-size: 30px;
   width: 30px;
   text-align: center;

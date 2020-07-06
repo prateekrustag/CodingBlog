@@ -194,13 +194,29 @@ background: linear-gradient(to right, #085078, #85d8ce);
 
 
 .boxin3{
+position: relative;
+border-radius: .4em;
 padding: 30px;
-background-color: black;
+background-color: white;
 opacity: 0.85;
-color: white;
+color: black;
 letter-spacing: 3px;
 font-family: nine;
 font-size: 15px;
+}
+
+.boxin3:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: white;
+    border-left: 0;
+    margin-top: -20px;
+    margin-left: -20px;
 }
 
 .boxin4{

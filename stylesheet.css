@@ -273,7 +273,7 @@ letter-spacing: 3px;
  @keyframes bounce 
  { 
     from { transform: translate3d(0, 0, 0); } 
-    to { transform: translate3d(0, 40px, 0); } 
+    to { transform: translate3d(0, 20px, 0); } 
 }
 
 .bounce-4 
@@ -287,7 +287,7 @@ letter-spacing: 3px;
 
  @keyframes bounce1 
  { 
-    from { transform: translate3d(0, 40px, 0); } 
+    from { transform: translate3d(0, 20px, 0); } 
     to { transform: translate3d(0, 0px, 0); } 
 }
 

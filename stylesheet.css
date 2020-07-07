@@ -139,22 +139,21 @@ font-size: 45px;
 letter-spacing: 5px;
 }
 
-
-#warning-message 
-{ 
-  width: 100%;
-  display: none; 
-  background-size: cover;
-  background: url("landscape.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100vh;
+.imgwarn{
+ height: 100vh;
 }
-    @media only screen and (orientation:portrait){
+
+#warning-message
+{ 
+  display: none; 
+}
+    @media only screen and (orientation:portrait)
+    {
         #mainsite { display:none; }
         #warning-message { display:block; }
     }
-    @media only screen and (orientation:landscape){
+    @media only screen and (orientation:landscape)
+    {
         #warning-message { display:none; }
     }
 

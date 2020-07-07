@@ -97,6 +97,8 @@ background-color: tomato;
 .menus{
 padding: 10px;
 border-radius: 20px;
+position: relative;
+left: -60px;
 }
 
 .custom-toggler .navbar-toggler-icon {

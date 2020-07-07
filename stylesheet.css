@@ -220,6 +220,15 @@ letter-spacing: 5px;
         .mainin1 .p2{    font-size: 30px;    }
     }
 
+.mainin .p5{
+position: relative;
+top: -30px;
+font-family: nine;
+font-size: 50px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
 .imgwarn{
  height: 100vh;
 }

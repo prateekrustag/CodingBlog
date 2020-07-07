@@ -157,9 +157,29 @@ letter-spacing: 3px;
 
 .mainin .p2{
 font-family: timer;
-font-size: 45px;
+font-size: 50px;
 letter-spacing: 5px;
 }
+
+ @media only screen and (max-width:710px)
+    {
+        .mainin .p2{    font-size: 45px;    }
+    }
+
+    @media only screen and (max-width:630px)
+    {
+        .mainin .p2{    font-size: 40px;    }
+    }
+
+    @media only screen and (max-width:570px)
+    {
+        .mainin .p2{    font-size: 35px;    }
+    }
+
+    @media only screen and (max-width:510px)
+    {
+        .mainin .p2{    font-size: 30px;    }
+    }
 
 .main1{
 background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("webdintro.jpg");

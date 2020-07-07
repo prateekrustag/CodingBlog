@@ -67,7 +67,7 @@ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, F
 width: 100%;
 }
 
-nav a{
+.kl{
 margin-right: 20px;
 background-color: transparent;
 border: 1px solid transparent;
@@ -75,11 +75,28 @@ color: white;
 border-radius: 50px;
 }
 
-nav a:hover{
+.kl:hover{
 border: 1px solid tomato;
 border-radius: 50px;
 background-color: tomato;
 color: white;
+}
+
+.kll
+{
+border-radius: 50px;
+padding: 10px;
+}
+
+.kll:hover
+{
+color: white;
+background-color: tomato;
+}
+
+.menus{
+padding: 10px;
+border-radius: 20px;
 }
 
 .custom-toggler .navbar-toggler-icon {

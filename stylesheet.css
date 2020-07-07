@@ -290,7 +290,7 @@ letter-spacing: 3px;
     to { transform: translate3d(0, 30px, 0); } 
 }
 
-.bounce-4 
+.bounce-4:hover
 {
     -webkit-animation-name: bounce; 
     -webkit-animation-duration: 0.5s; 

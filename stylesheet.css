@@ -515,6 +515,23 @@ padding-top: 15px;
 border-radius: 500px;"
 }
 
+.arrows{
+background-color: transparent;
+opacity: 1; 
+padding: 10px; 
+padding-top: 15px; 
+border-radius: 500px;
+transition: 0.3s background-color;
+}
+
+.arrows span{
+opacity:1;
+}
+
+.arrows:hover{
+background-color: black;
+}
+
 
 
 

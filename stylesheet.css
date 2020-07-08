@@ -592,5 +592,25 @@ background-color: black;
 }
 
 
+.updated{
+background-color: black;
+color: white;
+height: auto;
+display: inline-block;
+border: 2px solid white;
+}
 
+.lefted{
+background-color: black;
+padding: 15px;
+margin: 20px;
+z-index: 9999;
+border: 2px solid white;
+font-family: timer;
+}
+
+.righted{
+font-family: nine;
+letter-spacing: 3px;
+}
 

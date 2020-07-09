@@ -164,21 +164,25 @@ letter-spacing: 5px;
  @media only screen and (max-width:710px)
     {
         .mainin .p2{    font-size: 45px;    }
+        .mainin .p1{    font-size: 30px;    }
     }
 
     @media only screen and (max-width:630px)
     {
         .mainin .p2{    font-size: 40px;    }
+        .mainin .p1{    font-size: 27.5px;    }
     }
 
     @media only screen and (max-width:570px)
     {
         .mainin .p2{    font-size: 35px;    }
+        .mainin .p1{    font-size: 25px;    }
     }
 
     @media only screen and (max-width:510px)
     {
         .mainin .p2{    font-size: 30px;    }
+        .mainin .p1{    font-size: 22.5px;    }
     }
 
 .main1{

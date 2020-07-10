@@ -373,8 +373,9 @@ background: linear-gradient(to right, #dc2424, #4a569d);
 
 .heading{
 color: white;
+font-family: head;
 margin-left: 20px; 
-letter-spacing: 3px;
+font-size: 50px;
 }
 
  @keyframes bounce 

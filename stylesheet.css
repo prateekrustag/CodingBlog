@@ -267,15 +267,13 @@ background: linear-gradient(to right, #dc2424, #4a569d);
     position: relative;
     background: #00aabb;
     border-radius: .4em;
-    padding: 40px;
-    padding-left: 60px;
+    padding: 30px;
     background-color: black;
     opacity: 0.85;
     color: white;
     letter-spacing: 3px;
     font-family: arial;
     font-size: 15px;
-    border-radius: 100px;
 }
 
 .boxin:after {
@@ -304,15 +302,12 @@ background: linear-gradient(to right, #085078, #85d8ce);
     background: #00aabb;
     border-radius: .4em;
     padding: 40px;
-    padding-left: 60px;
-    padding-left: 50px;
     background-color: white;
     opacity: 0.85;
     color: black;
     letter-spacing: 3px;
     font-family: arial;
     font-size: 15px;
-    border-radius: 100px;
 }
 
 .boxin1:after {

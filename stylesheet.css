@@ -257,6 +257,42 @@ letter-spacing: 3px;
         #warning-message { display:none; }
     }
 
+.box1{
+height: auto;
+padding: 30px;
+background: linear-gradient(to right, #dc2424, #4a569d);
+}
+
+.boxin{
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+    padding: 40px;
+    padding-left: 60px;
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+    letter-spacing: 3px;
+    font-family: arial;
+    font-size: 15px;
+    border-radius: 100px;
+}
+
+.boxin:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: black;
+    border-left: 0;
+    border-top: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
 .box{
 height: auto;
 padding: 30px;
@@ -267,13 +303,16 @@ background: linear-gradient(to right, #085078, #85d8ce);
     position: relative;
     background: #00aabb;
     border-radius: .4em;
-    padding: 30px;
+    padding: 40px;
+    padding-left: 60px;
+    padding-left: 50px;
     background-color: white;
     opacity: 0.85;
     color: black;
     letter-spacing: 3px;
     font-family: arial;
     font-size: 15px;
+    border-radius: 100px;
 }
 
 .boxin1:after {
@@ -302,6 +341,7 @@ color: black;
 letter-spacing: 3px;
 font-family: nine;
 font-size: 15px;
+border-radius: 50px;
 }
 
 .boxin3:after {
@@ -339,63 +379,14 @@ color: black;
 letter-spacing: 3px;
 font-family: nine;
 font-size: 15px;
-}
-
-
-
-.box1{
-height: auto;
-padding: 30px;
-background: linear-gradient(to right, #dc2424, #4a569d);
-}
-
-.boxin{
-    position: relative;
-    background: #00aabb;
-    border-radius: .4em;
-    padding: 30px;
-    background-color: black;
-    opacity: 0.85;
-    color: white;
-    letter-spacing: 3px;
-    font-family: arial;
-    font-size: 15px;
-}
-
-.boxin:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 0;
-    height: 0;
-    border: 20px solid transparent;
-    border-right-color: black;
-    border-left: 0;
-    border-top: 0;
-    margin-top: -10px;
-    margin-left: -20px;
+border-radius: 50px;
 }
 
 .heading{
 color: white;
-font-family: head;
 margin-left: 20px; 
-font-size: 60px;
 }
 
-    @media only screen and (max-width:745px)
-    {
-        .heading{    font-size: 55px;    }
-    }
-    @media only screen and (max-width:690px)
-    {
-        .heading{    font-size: 50px;    }
-    }
-    @media only screen and (max-width:645px)
-    {
-        .heading{    font-size: 45px;    }
-    }
 
  @keyframes bounce 
  { 

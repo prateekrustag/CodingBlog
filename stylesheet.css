@@ -384,6 +384,19 @@ margin-left: 20px;
 font-size: 50px;
 }
 
+    @media only screen and (max-width:745px)
+    {
+        .heading{    font-size: 55px;    }
+    }
+    @media only screen and (max-width:690px)
+    {
+        .heading{    font-size: 50px;    }
+    }
+    @media only screen and (max-width:645px)
+    {
+        .heading{    font-size: 45px;    }
+    }
+
  @keyframes bounce 
  { 
     from { transform: translate3d(0, 0, 0); } 

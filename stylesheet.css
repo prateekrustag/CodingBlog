@@ -8,6 +8,12 @@ src: url("nine.otf");
 }
 
 @font-face{
+font-family: head;
+src: url("head.ttf");
+}
+
+
+@font-face{
 font-family: timer;
 src: url(CDT.otf);
 }
